@@ -1,0 +1,1576 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Metro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chiron+Hei+HK:ital,wght@0,200..900;1,200..900&family=Lunasima:wght@400;700&family=Oswald:wght@200..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/logo-icon.jpg">
+</head>
+
+<body class="bg-light-subtle">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary bg-light-subtle border-bottom ">
+  <div class="container-fluid mt-3 mb-3">
+      <a class="navbar-brand col-md-2" href="#">
+          <img src="images/logo.png" class="img-fluid d-block mx-auto w-60" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse mx-2" id="navbarSupportedContent">
+        <div class="navbar-nav me-auto mb-2 mb-lg-0 ">
+          <div class="nav-item col-md-5">
+            <a class="nav-link red" aria-current="page" href="#">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-telephone fs-4 me-2 transform"></i>
+                <div class="text-end">
+                  <div>Contact us 24/7</div>
+                  <div class="fw-bold">(+92) 3942 7879</div>
+                </div>
+              </div>
+            </a>
+          </div>
+            <div class="col-md-8 bg-body-secondary p-1 rounded-2 border-1">
+                <div class="input-group">
+                    <button class="btn btn-light dropdown-toggle border-end px-4 py-3 fw-bold border-color btn-cat" type="button" data-bs-toggle="dropdown">
+                    All Categories
+                    </button>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Electronics</a></li>
+                    <li><a class="dropdown-item" href="#">Fashion</a></li>
+                    </ul>
+                    <input type="text" class="form-control" placeholder="Search for products">
+                    <button class="btn btn-dark rounded-1 px-3">
+                    <i class="bi bi-search "></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            </div>
+            
+      </div>
+      <div class=" col-md-5 d-flex justify-content-center align-items-center  ">
+        <div class="d-flex align-items-center justify-content-center">
+              <div class="dropdown mx-2 English">
+                  <a href="#" class="nav-link text-dark red d-flex align-items-center" data-bs-toggle="dropdown">
+                    <img src="images/USA Flag PNG.jpeg" alt="" class="w-2 rounded-1">
+                    English <i class="bi bi-chevron-down"></i></a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Espanol</a></li>
+                      <li><a class="dropdown-item" href="#">Français</a></li>
+                      <li><a class="dropdown-item" href="#">Português</a></li>
+                      
+                  </ul>
+                </div>
+              <div>
+              <div class="USD dropdown mx-2">
+                  <a href="#" class="nav-link text-dark red d-flex align-items-center" data-bs-toggle="dropdown">USD <i class="bi bi-chevron-down"></i></a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">USD</a></li>
+                      <li><a class="dropdown-item" href="#">EGP</a></li>
+                  </ul>
+                </div></div>
+              <div class="Account">
+                        <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <div class="d-flex">
+                      <i class="bi bi-person mx-2 fs-3 "></i>
+                      Account
+                    </button>
+              </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body col-11">
+                            <div class="d-flex justify-content-between">
+                            <img src="images/Screenshot 2025-07-10 190243.png" alt="" class="col-md-6">
+                              <div class="text-center col-md-5 mt-4">
+                                <span class="h3 fw-bold mb-3">Login</span> <br>
+                                <form class="p-2">
+                                    <div class="mb-3 mt-2">
+                                      <input type="email" class=" form-modal p-2 w-100 rounded-2" placeholder="Username or email address*" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="mb-3">
+                                      <input type="password" class=" form-modal p-2 w-100 rounded-2" placeholder="Password*" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center mb-4">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="rememberMe">
+                                        <label class="form-check-label text-muted" for="rememberMe">Remember Me</label>
+                                      </div>
+                                      <a href="#" class="text-muted text-decoration-underline small">Forget Password?</a>
+                                    </div>
+                                    <!-- Submit Button -->
+                                    <div class="d-grid">
+                                      <button type="submit" class="btn btn-black">LOG IN</button>
+                                    </div>
+                                    <hr class="text-muted w-100 mt-4">
+                                  </form>
+                                  <!-- Register Prompt -->
+                                  <div class="text-center text-muted">
+                                    You don't have an account yet? <a href="#" class="text-dark fw-semibold">Register Now</a>
+                                  </div>
+                                </div>
+                              </div>
+                                  </form>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+              <div class="col-md-4 d-flex align-items-center mx-2">
+                      <a href="#" class="text-decoration-none red mx-2">
+                        <div class=" heart position-relative">
+                          <i class="bi bi-heart fs-3"></i>
+                          <span class="cart position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+                        </div>
+                      </a>
+                      <div>
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-primary mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="position-relative ">
+                          <i class="bi bi-cart fs-3"></i>
+                          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+                        </div>
+                      </button>
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              ...
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+              </div>
+                      </div>
+                    </div>
+              </div>
+              
+        </div>
+  </div>
+</nav>
+<nav class="navbar navbar-expand-lg px-4 border-right border-bottom sec-nav">
+
+    <div class="d-flex align-items-center me-4 shop-categories border-end border-secondary-subtle p-3"
+         data-bs-toggle="modal" data-bs-target="#categoriesModal" role="button">
+      <i class="bi bi-list fs-3 me-2"></i>
+      <span class="fw-bold">SHOP BY CATEGORIES</span>
+    </div>
+    
+
+<!-- Modal for Categories -->
+<div class="modal fade w-25" id="categoriesModal" tabindex="-1" aria-labelledby="categoriesModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable  d-inline-block">
+    <div class="modal-content h-100 d-inline-block  ">
+      <div class="modal-header">
+        <div class=" ">
+  <!-- Sidebar Categories -->
+  <nav class="bg-white ">
+    <h5 class=" mb-3 bg-black text-white border-5 border border-black w-100">
+      <i class="bi bi-list me-2"></i>SHOP BY CATEGORIES
+    </h5>
+    <ul class="list-unstyled">
+      <!-- Fashion with submenu -->
+      <li class="mb-2 border-bottom">
+        <a class="d-flex justify-content-between align-items-center text-decoration-none " data-bs-toggle="collapse" href="#fashionSubmenu" role="button" aria-expanded="false">
+          <span><i class="bi bi-tshirt me-2"></i>Fashion</span>
+          <i class="bi bi-chevron-right"></i>
+        </a>
+        <div class="collapse mt-2 ps-3" id="fashionSubmenu">
+          <div class="row">
+            <div class="col-6">
+              <h6 class="text-uppercase">Women</h6>
+              <ul class="list-unstyled small">
+                <li>Accessories</li>
+                <li>Blazers</li>
+                <li>Coats & Jackets</li>
+                <li>Dress</li>
+                <li>Shirts</li>
+                <li>Shoes</li>
+                <li>Shorts</li>
+                <li>Skirts</li>
+                <li>Sweatshirts</li>
+                <li>Tops</li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <h6 class="text-uppercase">Men</h6>
+              <ul class="list-unstyled small">
+                <li>Accessories</li>
+                <li>Cargo Trousers</li>
+                <li>Hoodies</li>
+                <li>Jackets & Coats</li>
+                <li>Jeans</li>
+                <li>Joggers</li>
+                <li>Polo shirts</li>
+                <li>Shirts</li>
+                <li>Shoes</li>
+                <li>Short</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li class="mb-2 border-bottom">
+        <a class="d-flex justify-content-between align-items-center text-decoration-none " data-bs-toggle="collapse" href="#fashionSubmenu" role="button" aria-expanded="false">
+          <span><i class="bi bi-tshirt me-2"></i>Phone & Tablet</span>
+          <i class="bi bi-chevron-right"></i>
+        </a>
+        <div class="collapse mt-2 ps-3" id="fashionSubmenu">
+          <div class="row">
+            <div class="col-6">
+              <h6 class="text-uppercase">Women</h6>
+              <ul class="list-unstyled small">
+                <li>Accessories</li>
+                <li>Blazers</li>
+                <li>Coats & Jackets</li>
+                <li>Dress</li>
+                <li>Shirts</li>
+                <li>Shoes</li>
+                <li>Shorts</li>
+                <li>Skirts</li>
+                <li>Sweatshirts</li>
+                <li>Tops</li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <h6 class="text-uppercase">Men</h6>
+              <ul class="list-unstyled small">
+                <li>Accessories</li>
+                <li>Cargo Trousers</li>
+                <li>Hoodies</li>
+                <li>Jackets & Coats</li>
+                <li>Jeans</li>
+                <li>Joggers</li>
+                <li>Polo shirts</li>
+                <li>Shirts</li>
+                <li>Shoes</li>
+                <li>Short</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="mb-2 border-bottom">
+        <a class="d-flex justify-content-between align-items-center text-decoration-none " data-bs-toggle="collapse" href="#fashionSubmenu" role="button" aria-expanded="false">
+          <span><i class="bi bi-tshirt me-2"></i>Laptop & Computer</span>
+          <i class="bi bi-chevron-right"></i>
+        </a>
+        <div class="collapse mt-2 ps-3" id="fashionSubmenu">
+          <div class="row">
+            <div class="col-6">
+              <h6 class="text-uppercase">Women</h6>
+              <ul class="list-unstyled small">
+                <li>Accessories</li>
+                <li>Blazers</li>
+                <li>Coats & Jackets</li>
+                <li>Dress</li>
+                <li>Shirts</li>
+                <li>Shoes</li>
+                <li>Shorts</li>
+                <li>Skirts</li>
+                <li>Sweatshirts</li>
+                <li>Tops</li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <h6 class="text-uppercase">Men</h6>
+              <ul class="list-unstyled small">
+                <li>Accessories</li>
+                <li>Cargo Trousers</li>
+                <li>Hoodies</li>
+                <li>Jackets & Coats</li>
+                <li>Jeans</li>
+                <li>Joggers</li>
+                <li>Polo shirts</li>
+                <li>Shirts</li>
+                <li>Shoes</li>
+                <li>Short</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="mb-2 border-bottom">
+        <a class="d-flex justify-content-between align-items-center text-decoration-none" data-bs-toggle="collapse" href="#fashionSubmenu" role="button" aria-expanded="false">
+          <span><i class="bi bi-tshirt me-2"></i>TV, Audio - Video</span>
+          <i class="bi bi-chevron-right"></i>
+        </a>
+        <div class="collapse mt-2 ps-3" id="fashionSubmenu">
+          <div class="row">
+            <div class="col-6">
+              <h6 class="text-uppercase">Women</h6>
+              <ul class="list-unstyled small">
+                <li>Accessories</li>
+                <li>Blazers</li>
+                <li>Coats & Jackets</li>
+                <li>Dress</li>
+                <li>Shirts</li>
+                <li>Shoes</li>
+                <li>Shorts</li>
+                <li>Skirts</li>
+                <li>Sweatshirts</li>
+                <li>Tops</li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <h6 class="text-uppercase">Men</h6>
+              <ul class="list-unstyled small">
+                <li>Accessories</li>
+                <li>Cargo Trousers</li>
+                <li>Hoodies</li>
+                <li>Jackets & Coats</li>
+                <li>Jeans</li>
+                <li>Joggers</li>
+                <li>Polo shirts</li>
+                <li>Shirts</li>
+                <li>Shoes</li>
+                <li>Short</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="mb-2 border-bottom">
+        <a class="d-flex justify-content-between align-items-center text-decoration-none" data-bs-toggle="collapse" href="#fashionSubmenu" role="button" aria-expanded="false">
+          <span><i class="bi bi-tshirt me-2"></i>Camera & Photo</span>
+          <i class="bi bi-chevron-right"></i>
+        </a>
+        <div class="collapse mt-2 ps-3" id="fashionSubmenu">
+          <div class="row">
+            <div class="col-6">
+              <h6 class="text-uppercase">Women</h6>
+              <ul class="list-unstyled small">
+                <li>Accessories</li>
+                <li>Blazers</li>
+                <li>Coats & Jackets</li>
+                <li>Dress</li>
+                <li>Shirts</li>
+                <li>Shoes</li>
+                <li>Shorts</li>
+                <li>Skirts</li>
+                <li>Sweatshirts</li>
+                <li>Tops</li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <h6 class="text-uppercase">Men</h6>
+              <ul class="list-unstyled small">
+                <li>Accessories</li>
+                <li>Cargo Trousers</li>
+                <li>Hoodies</li>
+                <li>Jackets & Coats</li>
+                <li>Jeans</li>
+                <li>Joggers</li>
+                <li>Polo shirts</li>
+                <li>Shirts</li>
+                <li>Shoes</li>
+                <li>Short</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="mb-2 border-bottom">
+        <a class="d-flex justify-content-between align-items-center text-decoration-none " data-bs-toggle="collapse" href="#fashionSubmenu" role="button" aria-expanded="false">
+          <span><i class="bi bi-tshirt me-2"></i>Home & Decor</span>
+          <i class="bi bi-chevron-right"></i>
+        </a>
+        <div class="collapse mt-2 ps-3" id="fashionSubmenu">
+          <div class="row">
+            <div class="col-6">
+              <h6 class="text-uppercase">Women</h6>
+              <ul class="list-unstyled small">
+                <li>Accessories</li>
+                <li>Blazers</li>
+                <li>Coats & Jackets</li>
+                <li>Dress</li>
+                <li>Shirts</li>
+                <li>Shoes</li>
+                <li>Shorts</li>
+                <li>Skirts</li>
+                <li>Sweatshirts</li>
+                <li>Tops</li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <h6 class="text-uppercase">Men</h6>
+              <ul class="list-unstyled small">
+                <li>Accessories</li>
+                <li>Cargo Trousers</li>
+                <li>Hoodies</li>
+                <li>Jackets & Coats</li>
+                <li>Jeans</li>
+                <li>Joggers</li>
+                <li>Polo shirts</li>
+                <li>Shirts</li>
+                <li>Shoes</li>
+                <li>Short</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="mb-2 border-bottom">
+        <a class="d-flex justify-content-between align-items-center text-decoration-none" data-bs-toggle="collapse" href="#fashionSubmenu" role="button" aria-expanded="false">
+          <span><i class="bi bi-tshirt me-2"></i>Beauty & Health</span>
+          <i class="bi bi-chevron-right"></i>
+        </a>
+        <div class="collapse mt-2 ps-3" id="fashionSubmenu">
+          <div class="row">
+            <div class="col-6">
+              <h6 class="text-uppercase">Women</h6>
+              <ul class="list-unstyled small">
+                <li>Accessories</li>
+                <li>Blazers</li>
+                <li>Coats & Jackets</li>
+                <li>Dress</li>
+                <li>Shirts</li>
+                <li>Shoes</li>
+                <li>Shorts</li>
+                <li>Skirts</li>
+                <li>Sweatshirts</li>
+                <li>Tops</li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <h6 class="text-uppercase">Men</h6>
+              <ul class="list-unstyled small">
+                <li>Accessories</li>
+                <li>Cargo Trousers</li>
+                <li>Hoodies</li>
+                <li>Jackets & Coats</li>
+                <li>Jeans</li>
+                <li>Joggers</li>
+                <li>Polo shirts</li>
+                <li>Shirts</li>
+                <li>Shoes</li>
+                <li>Short</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="mb-2 border-bottom">
+        <a class="d-flex justify-content-between align-items-center text-decoration-none " data-bs-toggle="collapse" href="#fashionSubmenu" role="button" aria-expanded="false">
+          <span><i class="bi bi-tshirt me-2"></i>Game Accessories</span>
+          <i class="bi bi-chevron-right"></i>
+        </a>
+        <div class="collapse mt-2 ps-3" id="fashionSubmenu">
+          <div class="row">
+            <div class="col-6">
+              <h6 class="text-uppercase">Women</h6>
+              <ul class="list-unstyled small">
+                <li>Accessories</li>
+                <li>Blazers</li>
+                <li>Coats & Jackets</li>
+                <li>Dress</li>
+                <li>Shirts</li>
+                <li>Shoes</li>
+                <li>Shorts</li>
+                <li>Skirts</li>
+                <li>Sweatshirts</li>
+                <li>Tops</li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <h6 class="text-uppercase">Men</h6>
+              <ul class="list-unstyled small">
+                <li>Accessories</li>
+                <li>Cargo Trousers</li>
+                <li>Hoodies</li>
+                <li>Jackets & Coats</li>
+                <li>Jeans</li>
+                <li>Joggers</li>
+                <li>Polo shirts</li>
+                <li>Shirts</li>
+                <li>Shoes</li>
+                <li>Short</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="mb-2 border-bottom">
+        <a class="d-flex justify-content-between align-items-center text-decoration-none" data-bs-toggle="collapse" href="#fashionSubmenu" role="button" aria-expanded="false">
+          <span><i class="bi bi-tshirt me-2"></i>Autopart</span>
+          <i class="bi bi-chevron-right"></i>
+        </a>
+        <div class="collapse mt-2 ps-3" id="fashionSubmenu">
+          <div class="row">
+            <div class="col-6">
+              <h6 class="text-uppercase">Women</h6>
+              <ul class="list-unstyled small">
+                <li>Accessories</li>
+                <li>Blazers</li>
+                <li>Coats & Jackets</li>
+                <li>Dress</li>
+                <li>Shirts</li>
+                <li>Shoes</li>
+                <li>Shorts</li>
+                <li>Skirts</li>
+                <li>Sweatshirts</li>
+                <li>Tops</li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <h6 class="text-uppercase">Men</h6>
+              <ul class="list-unstyled small">
+                <li>Accessories</li>
+                <li>Cargo Trousers</li>
+                <li>Hoodies</li>
+                <li>Jackets & Coats</li>
+                <li>Jeans</li>
+                <li>Joggers</li>
+                <li>Polo shirts</li>
+                <li>Shirts</li>
+                <li>Shoes</li>
+                <li>Short</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+      </div>
+    </div>
+  </div>
+</div>
+    <nav class="nav">
+      <div class="dropdown">
+      <a href="#" class="nav-link text-danger red fw-semibold " data-bs-toggle="dropdown">Homepages <i class="bi bi-chevron-down"></i></a>
+      <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">USD</a></li>
+                    <li><a class="dropdown-item" href="#">EGP</a></li>
+                  </ul>
+      </div>
+      <div class="dropdown">
+      <a href="#" class="nav-link text-dark red" data-bs-toggle="dropdown">Categories <i class="bi bi-chevron-down"></i></a>
+      <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">USD</a></li>
+                    <li><a class="dropdown-item" href="#">EGP</a></li>
+                  </ul>
+      </div>
+      <div class="dropdown">
+      <a href="#" class="nav-link text-dark red" data-bs-toggle="dropdown">Products <i class="bi bi-chevron-down"></i></a>
+      <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">USD</a></li>
+                    <li><a class="dropdown-item" href="#">EGP</a></li>
+                  </ul>
+      </div>
+       <div class="dropdown">
+      <a href="#" class="nav-link text-dark red" data-bs-toggle="dropdown">Pages <i class="bi bi-chevron-down"></i></a>
+      <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">USD</a></li>
+                    <li><a class="dropdown-item" href="#">EGP</a></li>
+                  </ul>
+      </div>
+      <a class="nav-link text-dark red" href="#">About us</a>
+      <a class="nav-link text-dark red" href="#">Blog</a> 
+      <a class="nav-link text-dark red" href="#"><i class="bi bi-ticket-perforated"></i> Best Discount</a>
+    </nav>
+
+    <div class="dropdown ms-auto">
+      <a href="#" class="nav-link text-dark red" data-bs-toggle="dropdown">Recently viewed <i class="bi bi-chevron-down"></i></a>
+      <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">USD</a></li>
+                    <li><a class="dropdown-item" href="#">EGP</a></li>
+                  </ul>
+      </div>
+  </div>
+</div>
+</nav>
+<section class="">
+<div class="row g-5">
+<!-- Left Banner Carousel -->
+<div class=" my-5">
+  <div class="row g-0">
+    <!-- Left Carousel -->
+    <div class="col-lg-8">
+      <div id="bannerCarousel" class="carousel slide h-100 position-relative" data-bs-ride="carousel">
+        <div class="carousel-inner h-100 overflow-hidden">
+          <!-- Slide 1 -->
+          <div class="carousel-item active h-100 position-relative">
+            <img src="images/IMG-20250729-WA0007.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Slide 1">
+            <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100 p-5">
+              <p class="text-white-50 mb-1">Up To 40% off</p>
+              <h2 class="fw-bold text-white">Body Lotion<br>SPF Lab 50+<br>PA+++++</h2>
+              <button class="btn btn-light mt-4 fw-bold px-4 py-2">SHOP NOW</button>
+            </div>
+          </div>
+          <div class="carousel-item h-100 position-relative">
+            <img src="images/IMG-20250729-WA0007.jpg" class="d-block w-100 h-100  object-fit-cover" alt="Slide 2">
+            <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100 p-5">
+              <p class="text-white-50 mb-1">Limited time offer *</p>
+              <h2 class="fw-bold text-white">From Italia <br>Sale 25% off<br>Armchairs!</h2>
+              <button class="btn btn-light mt-4 fw-bold px-4 py-2">SHOP NOW</button>
+            </div>
+          </div>
+          <div class="carousel-item h-100 position-relative">
+            <img src="images/IMG-20250729-WA0007.jpg" class=" object-fit-cover d-block w-100 h-100" alt="Slide 3">
+            <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100 p-5">
+              <p class="text-black -50 mb-1">Up To 40% off</p>
+              <h2 class="fw-bold text-black">Body Lotion<br>SPF Lab 50+<br>PA+++++</h2>
+              <button class="btn btn-light mt-4 fw-bold px-4 py-2">SHOP NOW</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Circle Indicators -->
+        <div class="carousel-indicators position-absolute bottom-0 start-50 translate-middle-x mb-3">
+          <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="0" class="active rounded-circle bg-light" style="width:10px; height:10px;" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="1" class="rounded-circle bg-light" style="width:10px; height:10px;" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="2" class="rounded-circle bg-light" style="width:10px; height:10px;" aria-label="Slide 3"></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Banners (Hover Zoom) -->
+    <div class="col-lg-4 d-flex flex-column ">
+      <!-- Eyeshadow -->
+      <div class="hover-zoom position-relative overflow-hidden bg-white shadow-sm d-flex flex-column justify-content-between" style="height: 50%;">
+        <img src="images/IMG-20250729-WA0005.jpg" alt="Eyeshadow" class="zoom-img position-relative object-fit-cover">
+        <div class="position-absolute p-md-4">
+          <p class="text-uppercase fw-bold small mb-1">Black Friday</p>
+          <h4 class="fw-bold">Big Sale<br>Eyeshadow</h4>
+          <p class="text-muted small">Over +100 items</p>
+          <button class="btn btn-outline-dark w-80 mt-2 fw-bold">SHOP NOW</button>
+
+        </div>
+      </div>
+
+      <div class="hover-zoom position-relative overflow-hidden bg-white shadow-sm d-flex flex-column justify-content-between" style="height: 50%;">
+        <img src="images/IMG-20250729-WA0004.jpg" alt="Eyeshadow" class="zoom-img position-relative object-fit-cover">
+        <span class="position-absolute top-cir translate-middle badge bg-danger text-white fw-bold rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+          $29
+        </span>
+        <div class="position-absolute p-md-4">
+          <p class="text-uppercase fw-bold small mb-1">New Collection</p>
+          <h4 class="fw-bold">Puffer Jacket<br>30% off</h4>
+          <p class="text-muted small">Best jacket in year</p>
+          <button class="btn btn-outline-dark w-80 mt-2 fw-bold">SHOP NOW</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container">
+  <!-- Top Guarantee Icons -->
+<div class=" mt-4 mb-4">
+  <div class="row d-flex justify-content-between  ">
+    <div class="col-md-3 icon-wrapper">
+      <i class="fas fa-shipping-fast me-lg-3 "></i>
+      <div>
+        <h6 class="display-6 fa-lg mb-3 fw-semibold ">Fast, Free Shipping</h6>
+        <small class="text-secondary">On order over $50</small>
+      </div>
+    </div>
+
+    <div class="col-md-3 icon-wrapper ">
+      <i class="far fa-clock me-lg-3"></i>
+      <div>
+        <h6 class="display-6 fa-lg mb-3 fw-semibold ">Next Day Delivery</h6>
+        <small class="text-muted">Free – spend over $99</small>
+      </div>
+    </div>
+
+    <div class="col-md-3 icon-wrapper">
+      <i class="fas fa-tags me-lg-3"></i>
+      <div>
+        <h6 class="display-6 fa-lg mb-3 fw-semibold">Low Price Guarantee</h6>
+        <small class="text-muted">We offer competitive prices</small>
+      </div>
+    </div>
+
+    <div class="col-md-3 icon-wrapper">
+      <i class="bi bi-hand-thumbs-up me-lg-3"></i>
+      <div>
+        <h6 class="display-6 fa-lg mb-3 fw-semibold">Quality Guarantee</h6>
+        <small class="text-muted">We Guarantee Our Products</small>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<section class="py-5">
+<div class="carousel-container">
+                <div class="items-wrapper" id="itemsWrapper">
+                    <!-- Item 1 -->
+                    <div class="category-circle" data-item="1">
+                        <div class="circle-img">
+                            <img src="images/Screenshot 2025-07-25 201521.png" alt="Item 1">
+                            <div class="hover-overlay">
+                                <i class="bi bi-arrow-right text-white fs-4"></i>
+                            </div>
+                        </div>
+                        <div class="item-label">Item 1</div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="category-circle" data-item="2">
+                        <div class="circle-img">
+                            <img src="images/Screenshot 2025-07-25 201521.png" alt="Item 2">
+                            <div class="hover-overlay">
+                                <i class="bi bi-arrow-right text-white fs-4"></i>
+                            </div>
+                        </div>
+                        <div class="item-label">Item 2</div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="category-circle" data-item="3">
+                        <div class="circle-img">
+                            <img src="images/Screenshot 2025-07-25 201521.png" alt="Item 3">
+                            <div class="hover-overlay">
+                                <i class="bi bi-arrow-right text-white fs-4"></i>
+                            </div>
+                        </div>
+                        <div class="item-label">Item 3</div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="category-circle" data-item="4">
+                        <div class="circle-img">
+                            <img src="images/Screenshot 2025-07-25 201521.png" alt="Item 4">
+                            <div class="hover-overlay">
+                                <i class="bi bi-arrow-right text-white fs-4"></i>
+                            </div>
+                        </div>
+                        <div class="item-label">Item 4</div>
+                    </div>
+
+                    <!-- Item 5 -->
+                    <div class="category-circle" data-item="5">
+                        <div class="circle-img">
+                            <img src="images/Screenshot 2025-07-25 201521.png" alt="Item 5">
+                            <div class="hover-overlay">
+                                <i class="bi bi-arrow-right text-white fs-4"></i>
+                            </div>
+                        </div>
+                        <div class="item-label">Item 5</div>
+                    </div>
+
+                    <!-- Item 6 -->
+                    <div class="category-circle" data-item="6">
+                        <div class="circle-img">
+                            <img src="images/Screenshot 2025-07-25 201521.png" alt="Item 6">
+                            <div class="hover-overlay">
+                                <i class="bi bi-arrow-right text-white fs-4"></i>
+                            </div>
+                        </div>
+                        <div class="item-label">Item 6</div>
+                    </div>
+
+                    <!-- Item 7 -->
+                    <div class="category-circle" data-item="7">
+                        <div class="circle-img">
+                            <img src="images/Screenshot 2025-07-25 201521.png" alt="Item 7">
+                            <div class="hover-overlay">
+                                <i class="bi bi-arrow-right text-white fs-4"></i>
+                            </div>
+                        </div>
+                        <div class="item-label">Item 7</div>
+                    </div>
+
+                    <!-- Item 8 -->
+                    <div class="category-circle" data-item="8">
+                        <div class="circle-img">
+                            <img src="images/Screenshot 2025-07-25 201521.png" alt="Item 8">
+                            <div class="hover-overlay">
+                                <i class="bi bi-arrow-right text-white fs-4"></i>
+                            </div>
+                        </div>
+                        <div class="item-label">Item 8</div>
+                    </div>
+
+                    <!-- Item 9 -->
+                    <div class="category-circle" data-item="9">
+                        <div class="circle-img">
+                            <img src="images/Screenshot 2025-07-25 201521.png" alt="Item 9">
+                            <div class="hover-overlay">
+                                <i class="bi bi-arrow-right text-white fs-4"></i>
+                            </div>
+                        </div>
+                        <div class="item-label">Item 9</div>
+                    </div>
+
+                    <!-- Item 10 -->
+                    <div class="category-circle" data-item="10">
+                        <div class="circle-img">
+                            <img src="images/Screenshot 2025-07-25 201521.png" alt="Item 10">
+                            <div class="hover-overlay">
+                                <i class="bi bi-arrow-right text-white fs-4"></i>
+                            </div>
+                        </div>
+                        <div class="item-label">Item 10</div>
+                    </div>
+
+                    <!-- Add more items as needed -->
+                    <div class="category-circle" data-item="11">
+                        <div class="circle-img">
+                            <img src="images/Screenshot 2025-07-25 201521.png" alt="Item 11">
+                            <div class="hover-overlay">
+                                <i class="bi bi-arrow-right text-white fs-4"></i>
+                            </div>
+                        </div>
+                        <div class="item-label">Item 11</div>
+                    </div>
+
+                    <div class="category-circle" data-item="12">
+                        <div class="circle-img">
+                            <img src="images/Screenshot 2025-07-25 201521.png" alt="Item 12">
+                            <div class="hover-overlay">
+                                <i class="bi bi-arrow-right text-white fs-4"></i>
+                            </div>
+                        </div>
+                        <div class="item-label">Item 12</div>
+                    </div>
+                </div>
+            </div>
+</section>
+<section> 
+  <div class="container mt-2 mb-2">
+        <!-- Discount Banner -->
+        <div class="border text-center mt-2 mb-2 p-2">
+            Super discount for your <strong>first purchase</strong>
+            <a href="#" class="text-danger">COUPON25</a>
+            Use discount code in the checkout!
+        </div>
+   <div class="flash-deals-section">
+            <div class="flash-deals-header">
+                <h2 class="flash-deals-title">Flash Deals</h2>
+                <div class="countdown-container">
+                    <span>Ends in</span>
+                    <div class="countdown">
+                        <div class="countdown-item">22</div>
+                        <span class="countdown-separator">:</span>
+                        <div class="countdown-item">02</div>
+                        <span class="countdown-separator">:</span>
+                        <div class="countdown-item">28</div>
+                    </div>
+                      <a href="#" class="ms-auto text-decoration-underline text-dark fw-medium">See All Products</a>
+                </div>
+            </div>
+        </div>
+  </section>
+<section class="container position-relative" id="div2">
+  <div class="carousel-wrapper position-relative">
+    <button id="custom-prev2" class="custom-prev position-absolute top-50 start-0 bg-light text-dark border-0 p-2 z-3">
+      <i class="bi bi-chevron-left"></i>
+    </button>
+
+    <button id="custom-next2" class="custom-next position-absolute top-50 end-0 bg-light text-dark border-0 p-2 z-3">
+      <i class="bi bi-chevron-right"></i>
+    </button>
+
+    <div class="owl-carousel d-flex flex-row flex-nowrap overflow-auto  px-5">
+      <div class="item p-2 d-flex flex-column position-relative border rounded" style="min-width: 250px;">
+        <img src="images/Screenshot 2025-07-27 001959.png" alt="" class="img-fluid">
+        <p class="fs-6 mb-1 red">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="d-flex">
+          <h5>$69</h5> <s class="text-secondary ms-2">$100</s>
+        </div>
+        <div class="d-flex align-items-center gap-2 mb-3">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+        </div>
+        <span class="disc bg-danger rounded-1 text-light px-1 position-absolute fs-6" style="top: 10px; left: 10px;">-34%</span>
+        <div class="icons-overlay d-flex flex-column position-absolute end-0 m-2 gap-2">
+          <i class="bi bi-heart bg-body-secondary p-1 text-black rounded-1 icon" title="add to cart"></i>
+          <i class="bi bi-arrow-left-right bg-body-secondary p-1 text-black rounded-1 icon" title="compare"></i>
+          <i class="bi bi-search bg-body-secondary p-1 text-black rounded-1 icon d-block" title="view"></i>
+          <i class="bi bi-cart2 bg-body-secondary p-1 text-black rounded-1 icon d-block" title="add to cart"></i>
+        </div>
+      </div>
+      <div class="item p-2 d-flex flex-column position-relative border rounded" style="min-width: 250px;">
+        <img src="images/Screenshot 2025-07-27 001959.png" alt="" class="img-fluid">
+        <p class="fs-6 mb-1 red">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="d-flex">
+          <h5>$69</h5> <s class="text-secondary ms-2">$100</s>
+        </div>
+        <div class="d-flex align-items-center gap-2 mb-3">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+        </div>
+        <span class="disc bg-danger rounded-1 text-light px-1 position-absolute fs-6" style="top: 10px; left: 10px;">-34%</span>
+        <div class="icons-overlay d-flex flex-column position-absolute end-0 m-2 gap-2">
+          <i class="bi bi-heart bg-body-secondary p-1 text-black rounded-1 icon"></i>
+          <i class="bi bi-arrow-left-right bg-body-secondary p-1 text-black rounded-1 icon"></i>
+          <i class="bi bi-search bg-body-secondary p-1 text-black rounded-1 icon d-block"></i>
+          <i class="bi bi-cart2 bg-body-secondary p-1 text-black rounded-1 icon d-block"></i>
+        </div>
+      </div>
+    <div class="item p-2 d-flex flex-column position-relative border rounded" style="min-width: 250px;">
+        <img src="images/Screenshot 2025-07-27 001959.png" alt="" class="img-fluid">
+        <p class="fs-6 mb-1 red">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="d-flex">
+          <h5>$69</h5> <s class="text-secondary ms-2">$100</s>
+        </div>
+        <div class="d-flex align-items-center gap-2 mb-3">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+        </div>
+        <span class="disc bg-danger rounded-1 text-light px-1 position-absolute fs-6" style="top: 10px; left: 10px;">-34%</span>
+        <div class="icons-overlay d-flex flex-column position-absolute end-0 m-2 gap-2">
+          <i class="bi bi-heart bg-body-secondary p-1 text-black rounded-1 icon" title="add to cart"></i>
+          <i class="bi bi-arrow-left-right bg-body-secondary p-1 text-black rounded-1 icon" title="compare"></i>
+          <i class="bi bi-search bg-body-secondary p-1 text-black rounded-1 icon d-block" title="view"></i>
+          <i class="bi bi-cart2 bg-body-secondary p-1 text-black rounded-1 icon d-block" title="add to cart"></i>
+        </div>
+        
+    </div>
+    <div class="item p-2 d-flex flex-column position-relative border rounded" style="min-width: 250px;">
+        <img src="images/Screenshot 2025-07-27 001959.png" alt="" class="img-fluid">
+        <p class="fs-6 mb-1 red">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="d-flex">
+          <h5>$69</h5> <s class="text-secondary ms-2">$100</s>
+        </div>
+        <div class="d-flex align-items-center gap-2 mb-3">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+        </div>
+        <span class="disc bg-danger rounded-1 text-light px-1 position-absolute fs-6" style="top: 10px; left: 10px;">-34%</span>
+        <div class="icons-overlay d-flex flex-column position-absolute end-0 m-2 gap-2">
+          <i class="bi bi-heart bg-body-secondary p-1 text-black rounded-1 icon" title="add to cart"></i>
+          <i class="bi bi-arrow-left-right bg-body-secondary p-1 text-black rounded-1 icon" title="compare"></i>
+          <i class="bi bi-search bg-body-secondary p-1 text-black rounded-1 icon d-block" title="view"></i>
+          <i class="bi bi-cart2 bg-body-secondary p-1 text-black rounded-1 icon d-block" title="add to cart"></i>
+        </div>
+    </div>
+    <div class="item p-2 d-flex flex-column position-relative border rounded" style="min-width: 250px;">
+        <img src="images/Screenshot 2025-07-27 001959.png" alt="" class="img-fluid">
+        <p class="fs-6 mb-1 red">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="d-flex">
+          <h5>$69</h5> <s class="text-secondary ms-2">$100</s>
+        </div>
+        <div class="d-flex align-items-center gap-2 mb-3">
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+        </div>
+        <span class="disc bg-danger rounded-1 text-light px-1 position-absolute fs-6" style="top: 10px; left: 10px;">-34%</span>
+        <div class="icons-overlay d-flex flex-column position-absolute end-0 m-2 gap-2">
+          <i class="bi bi-heart bg-body-secondary p-1 text-black rounded-1 icon" title="add to cart"></i>
+          <i class="bi bi-arrow-left-right bg-body-secondary p-1 text-black rounded-1 icon" title="compare"></i>
+          <i class="bi bi-search bg-body-secondary p-1 text-black rounded-1 icon d-block" title="view"></i>
+          <i class="bi bi-cart2 bg-body-secondary p-1 text-black rounded-1 icon d-block" title="add to cart"></i>
+        </div>
+    </div>
+</section>
+<section>
+  <div class="container my-5">
+  <div class="row g-4">
+    <!-- Card 1 -->
+    <div class="col-md-4">
+      <a href="#tires-sale" class="text-decoration-none">
+        <div class="promo-card shadow">
+          <img src="images/Screenshot 2025-07-27 194456.png" alt="Tires Sale">
+          <div class="promo-text">
+            <h5>SALE 10% OFF</h5>
+            <div class="small-text">TIRES MICHELIN</div>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4">
+      <a href="#sofa-collection" class="text-decoration-none">
+        <div class="promo-card shadow">
+          <img src="images/pexels-artempodrez-6801212.jpg" alt="Sofa Collection">
+          <div class="promo-text text-dark-bg">
+            <div class="small-text text-uppercase text-warning mb-1">New Collection</div>
+            <h5 class="text-dark">Sofa Crafted in UK</h5>
+            <div class="text-dark fw-semibold mt-2">Shop now &rarr;</div>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-4">
+      <a href="#beauty-sale" class="text-decoration-none">
+        <div class="promo-card shadow">
+          <img src="images/360_F_326937551_JXZlgKsmxge4httyK5G0zjVpPgaqElRN.jpg" alt="Beauty Sale">
+          <div class="promo-text">
+            <div class="beauty-sub">Steals under $25</div>
+            <div class="beauty-text">Beauty</div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+</section>
+<section>
+<div class="container mt-5 d-flex justify-content-between align-items-center">
+  <h2 class="fw-bold mb-3">New arrivals</h2>
+  <div class="d-flex flex-wrap align-items-center gap-3 category-menu" id="arrivalTabs">
+    <a class="text-decoration-none fw-medium text-danger active" data-category="fashion">Fashion</a>
+    <a class="text-decoration-none fw-medium text-dark" data-category="electronics">Phone & Tablet</a>
+    <a class="text-decoration-none fw-medium text-dark" data-category="home">Home & Decor</a>
+    <a class="text-decoration-none fw-medium text-dark" data-category="beauty">Beauty & Health</a>
+    <a href="#" class="ms-auto text-decoration-underline text-dark fw-medium">See All Products</a>
+  </div>
+</div>
+
+<!-- Product Grid -->
+<div class="container">
+  <div class="row g-0">
+
+    <!-- Fashion -->
+    <div class="col-md-4 tab-pane active" data-category="fashion">
+      <div class="product-card bg-white">
+        <div class="d-flex">
+
+        <img src="images/Screenshot 2025-07-27 222931.png" class="img-fluid mb-2" alt="Product">
+        <div>
+        <h6 class="product-title">Nike Air Max Unisex SYSTM Men Sneaker Shoes</h6>
+        <p class="fw-bold">$148</p>
+        <p>★★★★☆</p>
+      </div>
+      </div>
+        <div class="product-hover">
+          <button class="btn btn-light flex-fill me-2">+ ADD TO CART</button>
+          <i class="bi bi-arrow-left-right me-2"></i>
+          <i class="bi bi-search me-2"></i>
+          <i class="bi bi-heart"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 tab-pane active" data-category="fashion">
+      <div class="product-card bg-white">
+        <div class="d-flex">
+        <img src="images/Screenshot 2025-07-27 222931.png" class="img-fluid mb-2" alt="Product">
+        <div>
+        <h6 class="product-title">100% UV Protected Sunglasses For Men</h6>
+        <p class="fw-bold">$123</p>
+        <p>★★★★★</p></div>
+      </div>
+        <div class="product-hover">
+          <button class="btn btn-light flex-fill me-2">+ ADD TO CART</button>
+          <i class="bi bi-arrow-left-right me-2"></i>
+          <i class="bi bi-search me-2"></i>
+          <i class="bi bi-heart"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 tab-pane active" data-category="fashion">
+      <div class="product-card bg-white">
+        <div class="d-flex">
+        <img src="images/Screenshot 2025-07-27 222931.png" class="img-fluid mb-2" alt="Product">
+        <div>
+        <h6 class="product-title">LV Women Leather Accent Denim Mini Skirt</h6>
+        <p class="fw-bold">$1,390</p>
+        <p>★★★★☆</p></div>
+      </div>
+        <div class="product-hover">
+          <button class="btn btn-light flex-fill me-2">+ ADD TO CART</button>
+          <i class="bi bi-arrow-left-right me-2"></i>
+          <i class="bi bi-search me-2"></i>
+          <i class="bi bi-heart"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 tab-pane active" data-category="fashion">
+      <div class="product-card bg-white">
+        <div class="d-flex">
+        <img src="images/Screenshot 2025-07-27 222931.png" class="img-fluid mb-2" alt="Product">
+        <div>
+        <h6 class="product-title">LV Women Leather Accent Denim Mini Skirt</h6>
+        <p class="fw-bold">$1,390</p>
+        <p>★★★★☆</p></div>
+      </div>
+        <div class="product-hover">
+          <button class="btn btn-light flex-fill me-2">+ ADD TO CART</button>
+          <i class="bi bi-arrow-left-right me-2"></i>
+          <i class="bi bi-search me-2"></i>
+          <i class="bi bi-heart"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 tab-pane active" data-category="fashion">
+      <div class="product-card bg-white">
+        <div class="d-flex">
+        <img src="images/Screenshot 2025-07-27 222931.png" class="img-fluid mb-2" alt="Product">
+        <div>
+        <h6 class="product-title">LV Women Leather Accent Denim Mini Skirt</h6>
+        <p class="fw-bold">$1,390</p>
+        <p>★★★★☆</p></div>
+      </div>
+        <div class="product-hover">
+          <button class="btn btn-light flex-fill me-2">+ ADD TO CART</button>
+          <i class="bi bi-arrow-left-right me-2"></i>
+          <i class="bi bi-search me-2"></i>
+          <i class="bi bi-heart"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 tab-pane active" data-category="fashion">
+      <div class="product-card bg-white">
+        <div class="d-flex">
+        <img src="images/Screenshot 2025-07-27 222931.png" class="img-fluid mb-2" alt="Product">
+        <div>
+        <h6 class="product-title">LV Women Leather Accent Denim Mini Skirt</h6>
+        <p class="fw-bold">$1,390</p>
+        <p>★★★★☆</p></div>
+      </div>
+        <div class="product-hover">
+          <button class="btn btn-light flex-fill me-2">+ ADD TO CART</button>
+          <i class="bi bi-arrow-left-right me-2"></i>
+          <i class="bi bi-search me-2"></i>
+          <i class="bi bi-heart"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Home & Decor -->
+    <div class="col-md-4 tab-pane" data-category="home">
+      <div class="product-card bg-white">
+        <img src="images/Screenshot 2025-07-27 222931.png" class="img-fluid mb-2" alt="Product">
+        <h6 class="product-title">A Different Christmas Knit Holiday Sweater</h6>
+        <p class="fw-bold">$50 – $65</p>
+        <p>☆☆☆☆☆</p>
+        <div class="product-hover">
+          <button class="btn btn-light flex-fill me-2">+ ADD TO CART</button>
+          <i class="bi bi-arrow-left-right me-2"></i>
+          <i class="bi bi-search me-2"></i>
+          <i class="bi bi-heart"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 tab-pane" data-category="home">
+      <div class="product-card bg-white">
+        <img src="images/Screenshot 2025-07-27 222931.png" class="img-fluid mb-2" alt="Product">
+        <h6 class="product-title">Winter New Jacket Loose Retro American Campus</h6>
+        <p class="fw-bold">$160</p>
+        <p>★★★★☆</p>
+        <div class="product-hover">
+          <button class="btn btn-light flex-fill me-2">+ ADD TO CART</button>
+          <i class="bi bi-arrow-left-right me-2"></i>
+          <i class="bi bi-search me-2"></i>
+          <i class="bi bi-heart"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 tab-pane" data-category="home">
+      <div class="product-card bg-white">
+        <img src="images/Screenshot 2025-07-27 222931.png" class="img-fluid mb-2" alt="Product">
+        <h6 class="product-title">Winter Hats with Top Ball Custom Design</h6>
+        <p class="fw-bold">$17</p>
+        <p>★★★★★</p>
+        <div class="product-hover">
+          <button class="btn btn-light flex-fill me-2">+ ADD TO CART</button>
+          <i class="bi bi-arrow-left-right me-2"></i>
+          <i class="bi bi-search me-2"></i>
+          <i class="bi bi-heart"></i>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</section>
+  <section class="container-fluid ps-5 my-5 owl-section  bg-body-secondary">
+        <button class="carousel-arrow left-arrow">&#10094;</button>
+        <button class="carousel-arrow right-arrow">&#10095;</button>
+
+        <div class="row align-items-center justify-content-around">
+            <div class="col-md-5 px-0 ps-5 position-relative">
+                <div class="owl-carousel owl-theme w-75 ps-5" id="hodee">
+                    <div class="item ">
+                        <img src="images/Men's Hoodies - Graphic, Oversized & More _ Tommy Hilfiger® UK.jpeg" class="d-block w-100 img-fluid" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/sports fashion.jpeg" class="d-block w-100 img-fluid" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/sports fashion.jpeg" class="d-block w-100 img-fluid" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/Mens Calvin Klein Colorblocked Coconut Crew Neck Shirt Xxl.jpeg" class="d-block w-100 img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="bg-white rounded shadow py-4 px-5 d-flex flex-column justify-content-start">
+                    <h4 class="fw-bolder fs-3 lh-sm">Athletics Embroidered Relaxed Hoodie</h4>
+                    <div class="d-flex">
+                        <i class="bi bi-check2 text-success fs-6 pe-2 h-50"></i>
+                        <p class="small fw-normal mb-1">64% cotton,36% polyester</p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="bi bi-check2 text-success fs-6 pe-2 h-50"></i>
+                        <p class="small fw-normal mb-1">Do not dry clean</p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="bi bi-check2 text-success fs-6 pe-2 h-50"></i>
+                        <p class="small fw-normal mb-1">Machine wash</p>
+                    </div>
+                    <span class="border border-1 border-secondary-subtle my-2"></span>
+                    <div class="d-flex align-items-center gap-3">
+                        <span class="fw-bold fs-4">$89</span>
+                        <span class="text-decoration-line-through fs-6 text-muted">$120</span>
+                    </div>
+                    <div class="d-flex gap-2 my-2" id="thumbnails">
+                        <img src="images/Men's Hoodies - Graphic, Oversized & More _ Tommy Hilfiger® UK.jpeg" class="thumb-img border rounded p-1" width="60"
+                            height="60" style="cursor:pointer">
+                        <img src="images/sports fashion.jpeg" class="thumb-img border rounded p-1" width="60"
+                            height="60" style="cursor:pointer">
+                        <img src="images/sports fashion.jpeg" class="thumb-img border rounded p-1" width="60"
+                            height="60" style="cursor:pointer">
+                        <img src="images/Mens Calvin Klein Colorblocked Coconut Crew Neck Shirt Xxl.jpeg" class="thumb-img border rounded p-1" width="60"
+                            height="60" style="cursor:pointer">
+                    </div>
+                    <div class="d-grid w-100 mx-auto mt-3">
+                        <button class="btn btn-primary border-black bg-black text-white buy-hover" type="button">Buy
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </section>
+<section class="container position-relative" id="div2">
+  <div class="flash-deals-section">
+            <div class="flash-deals-header">
+              <div class="d-flex justify-content-between align-content-center">
+                <div>
+                <h2 class="flash-deals-title">Best Selling</h2></div>
+                <div>
+                <!-- <a href="#" class="ms-auto text-decoration-underline text-dark fw-medium">See All Products</a></div> -->
+
+              </div></div></div>
+  <div class="carousel-wrapper position-relative">
+    <button id="custom-prev2" class="custom-prev position-absolute top-50 start-0 bg-light text-dark border-0 p-2 z-3">
+      <i class="bi bi-chevron-left"></i>
+    </button>
+
+    <button id="custom-next2" class="custom-next position-absolute top-50 end-0 bg-light text-dark border-0 p-2 z-3">
+      <i class="bi bi-chevron-right"></i>
+    </button>
+
+    <div class="owl-carousel d-flex flex-row flex-nowrap overflow-auto  px-5">
+      <div class="item p-2 d-flex flex-column position-relative border rounded" style="min-width: 250px;">
+        <img src="images/Screenshot 2025-07-27 001959.png" alt="" class="img-fluid">
+        <p class="fs-6 mb-1 red">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="d-flex">
+          <h5>$69</h5> <s class="text-secondary ms-2">$100</s>
+        </div>
+        <span class="disc bg-danger rounded-1 text-light px-1 position-absolute fs-6" style="top: 10px; left: 10px;">-34%</span>
+        <div class="icons-overlay d-flex flex-column position-absolute end-0 m-2 gap-2">
+          <i class="bi bi-heart bg-body-secondary p-1 text-black rounded-1 icon" title="add to cart"></i>
+          <i class="bi bi-arrow-left-right bg-body-secondary p-1 text-black rounded-1 icon" title="compare"></i>
+          <i class="bi bi-search bg-body-secondary p-1 text-black rounded-1 icon d-block" title="view"></i>
+          <i class="bi bi-cart2 bg-body-secondary p-1 text-black rounded-1 icon d-block" title="add to cart"></i>
+        </div>
+      </div>
+      <div class="item p-2 d-flex flex-column position-relative border rounded" style="min-width: 250px;">
+        <img src="images/Screenshot 2025-07-27 001959.png" alt="" class="img-fluid">
+        <p class="fs-6 mb-1 red">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="d-flex">
+          <h5>$69</h5> <s class="text-secondary ms-2">$100</s>
+        </div>
+        <span class="disc bg-danger rounded-1 text-light px-1 position-absolute fs-6" style="top: 10px; left: 10px;">-34%</span>
+        <div class="icons-overlay d-flex flex-column position-absolute end-0 m-2 gap-2">
+          <i class="bi bi-heart bg-body-secondary p-1 text-black rounded-1 icon"></i>
+          <i class="bi bi-arrow-left-right bg-body-secondary p-1 text-black rounded-1 icon"></i>
+          <i class="bi bi-search bg-body-secondary p-1 text-black rounded-1 icon d-block"></i>
+          <i class="bi bi-cart2 bg-body-secondary p-1 text-black rounded-1 icon d-block"></i>
+        </div>
+      </div>
+    <div class="item p-2 d-flex flex-column position-relative border rounded" style="min-width: 250px;">
+        <img src="images/Screenshot 2025-07-27 001959.png" alt="" class="img-fluid">
+        <p class="fs-6 mb-1 red">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="d-flex">
+          <h5>$69</h5> <s class="text-secondary ms-2">$100</s>
+        </div>
+        <span class="disc bg-danger rounded-1 text-light px-1 position-absolute fs-6" style="top: 10px; left: 10px;">-34%</span>
+        <div class="icons-overlay d-flex flex-column position-absolute end-0 m-2 gap-2">
+          <i class="bi bi-heart bg-body-secondary p-1 text-black rounded-1 icon" title="add to cart"></i>
+          <i class="bi bi-arrow-left-right bg-body-secondary p-1 text-black rounded-1 icon" title="compare"></i>
+          <i class="bi bi-search bg-body-secondary p-1 text-black rounded-1 icon d-block" title="view"></i>
+          <i class="bi bi-cart2 bg-body-secondary p-1 text-black rounded-1 icon d-block" title="add to cart"></i>
+        </div>
+        
+    </div>
+    <div class="item p-2 d-flex flex-column position-relative border rounded" style="min-width: 250px;">
+        <img src="images/Screenshot 2025-07-27 001959.png" alt="" class="img-fluid">
+        <p class="fs-6 mb-1 red">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="d-flex">
+          <h5>$69</h5> <s class="text-secondary ms-2">$100</s>
+        </div>
+        <span class="disc bg-danger rounded-1 text-light px-1 position-absolute fs-6" style="top: 10px; left: 10px;">-34%</span>
+        <div class="icons-overlay d-flex flex-column position-absolute end-0 m-2 gap-2">
+          <i class="bi bi-heart bg-body-secondary p-1 text-black rounded-1 icon" title="add to cart"></i>
+          <i class="bi bi-arrow-left-right bg-body-secondary p-1 text-black rounded-1 icon" title="compare"></i>
+          <i class="bi bi-search bg-body-secondary p-1 text-black rounded-1 icon d-block" title="view"></i>
+          <i class="bi bi-cart2 bg-body-secondary p-1 text-black rounded-1 icon d-block" title="add to cart"></i>
+        </div>
+    </div>
+    <div class="item p-2 d-flex flex-column position-relative border rounded" style="min-width: 250px;">
+        <img src="images/Screenshot 2025-07-27 001959.png" alt="" class="img-fluid">
+        <p class="fs-6 mb-1 red">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="d-flex">
+          <h5>$69</h5> <s class="text-secondary ms-2">$100</s>
+        </div>
+
+        <span class="disc bg-danger rounded-1 text-light px-1 position-absolute fs-6" style="top: 10px; left: 10px;">-34%</span>
+        <div class="icons-overlay d-flex flex-column position-absolute end-0 m-2 gap-2">
+          <i class="bi bi-heart bg-body-secondary p-1 text-black rounded-1 icon" title="add to cart"></i>
+          <i class="bi bi-arrow-left-right bg-body-secondary p-1 text-black rounded-1 icon" title="compare"></i>
+          <i class="bi bi-search bg-body-secondary p-1 text-black rounded-1 icon d-block" title="view"></i>
+          <i class="bi bi-cart2 bg-body-secondary p-1 text-black rounded-1 icon d-block" title="add to cart"></i>
+        </div>
+    </div>
+</section>
+<section>
+  <div class="container my-5">
+  <h3 class="section-title">From Our Blog</h3>
+
+  <div class="blog-carousel-wrapper">
+    <!-- Left Arrow -->
+    <button class="carousel-arrow left" id="blogPrev"><i class="bi bi-chevron-left"></i></button>
+
+    <!-- Carousel Content -->
+    <div class="carousel-container" id="blogCarousel">
+
+      <!-- Blog Post 1 -->
+      <div class="blog-item">
+        <img src="images/Screenshot 2025-07-28 195028.png" class="img-fluid rounded mb-3" alt="Blog 1">
+        <p class="text-uppercase text-muted small mb-1">BEAUTY & FASHION &nbsp; — &nbsp;
+          <span class="text-capitalize">By Myoui Mina</span>
+        </p>
+        <h5 class="fw-semibold">Weekday Outfit Inspiration for All Occasions</h5>
+        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="read-more-btn">READ MORE</button>
+      </div>
+
+      <!-- Blog Post 2 -->
+      <div class="blog-item">
+        <img src="images/Screenshot 2025-07-28 195057.png" class="img-fluid rounded mb-3" alt="Blog 2">
+        <p class="text-uppercase text-muted small mb-1">COSMETICS &nbsp; — &nbsp;
+          <span class="text-capitalize">By Myoui Mina</span>
+        </p>
+        <h5 class="fw-semibold">100% Pure & Natural Sage Essential Oil</h5>
+        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="read-more-btn">READ MORE</button>
+      </div>
+
+      <!-- Blog Post 3 -->
+      <div class="blog-item">
+        <img src="images/Screenshot 2025-07-28 195110.png" class="img-fluid rounded mb-3" alt="Blog 3">
+        <p class="text-uppercase text-muted small mb-1">ELECTRONICS &nbsp; — &nbsp;
+          <span class="text-capitalize">By Myoui Mina</span>
+        </p>
+        <h5 class="fw-semibold">Tips for Cleaning Desktop & Laptop</h5>
+        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="read-more-btn">READ MORE</button>
+      </div>
+
+    </div>
+
+    <!-- Right Arrow -->
+    <button class="carousel-arrow right" id="blogNext"><i class="bi bi-chevron-right"></i></button>
+  </div>
+</div>
+
+</section>
+<section class="search-section text-center">
+  <div class="container">
+    <h3 class="fw-bold mb-4">Looking for something else?</h3>
+
+    <!-- Search bar -->
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6">
+        <div class="input-group">
+          <input type="text" class="form-control bg-white border-end-0 rounded-start " placeholder="Search for products...">
+          <button class="btn search-btn rounded-end" type="button">
+            <i class="bi bi-search"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Search tags -->
+    <div class="search-tags d-flex flex-wrap justify-content-center align-items-center mt-4">
+      <a href="#">smartphone</a>
+      <a href="#">tablet</a>
+      <a href="#">controller</a>
+      <a href="#">furniture</a>
+      <a href="#">laptop</a>
+      <a href="#">playstation</a>
+      <a href="#">womens fashion</a>
+      <a href="#">home & decor</a>
+      <a href="#">camera</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row gy-4">
+
+      <!-- Logo & Contact -->
+      <div class="col-lg-3">
+          <img src="images/logo (1).png" class="img-fluid d-block w-50 mb-3" alt="">
+        <p class="text-white-50"><i class="bi bi-geo-alt me-2 text-white-50"></i>29 SE 2nd Ave, Miami<br>Florida 33131, United States</p>
+        <p class="text-white-50"><i class="bi bi-envelope me-2 text-white-50"></i>info@example.com</p>
+        <p><a href="#" class="footer-phone">(+92) 3942 7879</a></p>
+      </div>
+
+      <!-- Shopping -->
+      <div class="col-6 col-lg-2">
+        <h6 class="fw-bold text-uppercase mb-4">Shopping</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a href="#">Wishlist</a></li>
+          <li class="mb-3"><a href="#">Shop by Brand</a></li>
+          <li class="mb-3"><a href="#">Offers</a></li>
+          <li class="mb-3"><a href="#">Track order</a></li>
+          <li class="mb-3"><a href="#">Size Guide</a></li>
+        </ul>
+      </div>
+
+      <!-- Info -->
+      <div class="col-6 col-lg-2">
+        <h6 class="fw-bold text-uppercase mb-4">Information</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a href="#">Track Order</a></li>
+          <li class="mb-3"><a href="#">Shipping & Returns</a></li>
+          <li class="mb-3"><a href="#">About us</a></li>
+          <li class="mb-3"><a href="#">Help</a></li>
+          <li class="mb-3"><a href="#">Gift Cards</a></li>
+        </ul>
+      </div>
+
+      <!-- Account -->
+      <div class="col-6 col-lg-2">
+        <h6 class="fw-bold text-uppercase mb-4">Account</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a href="#">Cart</a></li>
+          <li class="mb-3"><a href="#">My account</a></li>
+          <li class="mb-3"><a href="#">My orders</a></li>
+          <li class="mb-3"><a href="#">Wishlist</a></li>
+          <li class="mb-3"><a href="#">Affiliate Program</a></li>
+        </ul>
+      </div>
+
+      <!-- Newsletter + Social -->
+      <div class="col-lg-3">
+        <h6 class="fw-bold">Let’s keep in touch</h6>
+        <form class="d-flex footer-input mt-2">
+          <input type="email" class="form-control" placeholder="enter your email address">
+          <button type="submit"><i class="bi bi-arrow-right"></i></button>
+        </form>
+        <div class="social-icons mt-3">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-tiktok"></i></a>
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-youtube"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Help Boxes -->
+    <div class="row text-white text-center mt-5 border rounded py-4 gx-3 border-secondary">
+      <div class="col-md-4 mb-3 mb-md-0">
+        <div class="d-flex align-items-center">
+          <i class="bi bi-telephone fs-4 mb-2 mx-4"></i>
+          <div>
+          <h6 class="fw-bold">Didn't find what you were looking for?</h6>
+          <a href="#">Contact Us</a></div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3 mb-md-0">
+        <div class="d-flex align-items-center">
+          <i class="bi bi-emoji-smile fs-4 mb-2 mx-4"></i>
+          <div>
+          <h6 class="fw-bold">How can we help you today?</h6>
+          <a href="#">Help Center</a></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="d-flex align-items-center">
+          <i class="bi bi-life-preserver fs-4 mb-2 mx-4"></i>
+          <div>
+          <h6 class="fw-bold">We’d love to hear what you think!</h6>
+          <a href="#">Give Feedback</a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Row -->
+    <div class="footer-bottom text-center mt-4 pt-4 d-flex align-items-center justify-content-between">
+      <p class="text-white-50">Copyright © Merto. All Rights Reserved</p>
+      <div class="footer-card-icons mt-3">
+        <img src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_111x69.jpg" alt="PayPal">
+        <img src="https://img.icons8.com/color/48/000000/apple-pay.png" alt="Apple Pay">
+        <img src="https://img.icons8.com/color/48/000000/visa.png" alt="Visa">
+        <img src="https://img.icons8.com/color/48/000000/discover.png" alt="Discover">
+        <img src="https://img.icons8.com/color/48/000000/jcb.png" alt="JCB">
+        <img src="https://img.icons8.com/color/48/000000/google-pay.png" alt="Google Pay">
+        <img src="https://img.icons8.com/color/48/000000/amex.png" alt="AmEx">
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+</body>
+</html>
