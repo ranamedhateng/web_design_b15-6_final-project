@@ -28,6 +28,10 @@ for (var i = 0; i < photos.length; i++) {  // Add click to each photo
 
         // Update countdown every second
         setInterval(updateCountdown, 1000);
+function updateCarousel() {
+  // your logic to update carousel
+  console.log("Carousel updated");
+}
 
         // Initialize carousel
         updateCarousel();
@@ -173,33 +177,4 @@ $(document).ready(function () {
 
   blogPrev.addEventListener("click", () => {
     blogCarousel.scrollBy({ left: -320, behavior: 'smooth' });
-  });
-
-    $(document).ready(function () {
-    var owl = $('#hodee');
-
-    owl.owlCarousel({
-      items: 1,
-      loop: true,
-      margin: 10,
-      nav: false,
-      dots: false
-    });
-
-    $('.left-arrow').click(function () {
-      owl.trigger('prev.owl.carousel');
-    });
-
-    $('.right-arrow').click(function () {
-      owl.trigger('next.owl.carousel');
-    });
-
-    $('#thumbnails img').click(function () {
-      let index = $(this).index();
-      owl.trigger('to.owl.carousel', [index, 300]);
-      $('.thumb-img').removeClass('active');
-      $(this).addClass('active');
-    });
-
-    $('.thumb-img').first().addClass('active');
   });
